@@ -1,0 +1,22 @@
+body{
+    font-family: "Avenir" "Avenir next" "Microsoft Yahei";
+    font-size: 16px;
+    line-height: 1.5;
+}
+.person{
+    float: left;
+    margin: 0 20px;
+
+    .photo{
+        cursor: pointer;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.375);
+        transition: box-shadow 250ms ease;
+
+        &:hover{
+            box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+        }
+    }
+    .name{
+        text-align: center;
+    }
+}
