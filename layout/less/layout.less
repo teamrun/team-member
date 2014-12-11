@@ -3,6 +3,13 @@ body{
     font-size: 16px;
     line-height: 1.5;
 }
+#ctn{
+    &:after{
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
 .person{
     float: left;
     margin: 0 20px;

@@ -4,22 +4,28 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
-/* line 6, /Users/chenllos/Documents/dev/souche/help/i/team-member/layout/less/layout.less */
+/* line 7, /Users/chenllos/Documents/dev/souche/help/i/team-member/layout/less/layout.less */
+#ctn:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* line 13, /Users/chenllos/Documents/dev/souche/help/i/team-member/layout/less/layout.less */
 .person {
   float: left;
   margin: 0 20px;
 }
-/* line 10, /Users/chenllos/Documents/dev/souche/help/i/team-member/layout/less/layout.less */
+/* line 17, /Users/chenllos/Documents/dev/souche/help/i/team-member/layout/less/layout.less */
 .person .photo {
   cursor: pointer;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.375);
   transition: box-shadow 250ms ease;
 }
-/* line 15, /Users/chenllos/Documents/dev/souche/help/i/team-member/layout/less/layout.less */
+/* line 22, /Users/chenllos/Documents/dev/souche/help/i/team-member/layout/less/layout.less */
 .person .photo:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
-/* line 19, /Users/chenllos/Documents/dev/souche/help/i/team-member/layout/less/layout.less */
+/* line 26, /Users/chenllos/Documents/dev/souche/help/i/team-member/layout/less/layout.less */
 .person .name {
   text-align: center;
 }
